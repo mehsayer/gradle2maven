@@ -1,0 +1,11 @@
+/* shared versions */
+ext {
+    versions = [
+        guava  : '33.2.1-jre',
+        lombok : '1.18.34',
+    ]
+    libs = [
+        guava : "com.google.guava:guava:${versions.guava}",
+        lombok: "org.projectlombok:lombok:$versions.lombok",
+    ]
+}

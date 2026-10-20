@@ -1,0 +1,5 @@
+dependencies {
+    implementation libs.guava
+    implementation 'commons-io:commons-io:2.+'     // dynamic version
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
